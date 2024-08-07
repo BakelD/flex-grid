@@ -1,0 +1,27 @@
+body {
+  background-color: pink;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.section__title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.menu__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.menu__link {
+  color: currentColor;
+}

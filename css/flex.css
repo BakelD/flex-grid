@@ -1,0 +1,55 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  width: 860px;
+}
+
+.grid__row {
+  display: flex;
+  align-items: center;
+
+  padding: 10px;
+
+  background-color: #aaaaaa;
+  border: 1px solid #212121;
+}
+
+.grid__wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.grid__wrapper--special {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grid__item {
+  width: 120px;
+  height: 40px;
+
+  background-color: #d0133c;
+  border: 1px solid #212121;
+}
+
+.grid__item--long {
+  width: 160px;
+}
+
+.grid__item--special {
+  margin-right: 20px;
+  height: 90px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
